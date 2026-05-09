@@ -1,0 +1,134 @@
+BHBS CONTENT STUDIO — VERCEL DEPLOYMENT GUIDE
+==============================================
+
+WHAT YOU NEED:
+- 10 minutes
+- A free GitHub account
+- A free Vercel account
+- The 5 files in the bhbs_next folder
+
+HOW LONG THIS TAKES:
+- GitHub setup: 3 minutes
+- Upload code: 3 minutes
+- Vercel deploy: 2 minutes
+- Your app is live: Done ✓
+
+---
+
+STEP 1: CREATE A GITHUB ACCOUNT
+(Skip this if you already have one)
+
+1. Go to github.com
+2. Click "Sign Up"
+3. Use your Google email
+4. Verify your email
+5. You now have a GitHub account
+
+---
+
+STEP 2: CREATE A NEW REPOSITORY
+
+1. Sign into github.com
+2. Click the + icon (top right corner)
+3. Click "New repository"
+4. Name it: bhbs-content-studio
+5. Leave everything else as default
+6. Click "Create repository"
+7. GitHub shows you some code — SAVE THIS PAGE (you'll need it)
+
+---
+
+STEP 3: UPLOAD YOUR FILES
+
+These are the 5 files you need:
+- package.json
+- next.config.js
+- .gitignore
+- app/layout.jsx
+- app/page.jsx
+- app/globals.css
+
+Method A (Easier - No Command Line):
+1. On your new GitHub repository page, click "Add file" → "Upload files"
+2. Drag and drop all 5 files
+3. Click "Commit changes"
+Done. GitHub now has your code.
+
+Method B (Command Line - If You Know Git):
+1. Follow the commands GitHub shows on the new repository page
+2. Run: git add . && git commit -m "initial" && git push
+
+---
+
+STEP 4: DEPLOY TO VERCEL
+
+1. Go to vercel.com
+2. Click "Sign Up"
+3. Click "Continue with GitHub"
+4. Authorize Vercel to see your GitHub repos
+5. You're in Vercel — click "New Project"
+6. Find "bhbs-content-studio" in the list
+7. Click "Import"
+8. Vercel auto-detects Next.js — click "Deploy"
+9. Wait 2-3 minutes while it builds
+
+YOU'RE DONE.
+
+---
+
+YOUR APP IS NOW LIVE
+
+Once the deploy finishes, Vercel gives you a URL like:
+bhbs-content-studio.vercel.app
+
+BOOKMARK THIS. This is your permanent content studio.
+
+You can open it from your phone, desktop, anywhere, anytime.
+
+The Idea Bank saves to your browser so your content stays safe.
+
+---
+
+WHAT IF SOMETHING BREAKS?
+
+If you get an error:
+1. Take a screenshot
+2. Come back here
+3. Tell me what the error says
+4. I'll fix it
+
+GitHub + Vercel are very stable. Your app will stay live.
+
+---
+
+QUESTIONS?
+
+How long will it stay live?
+Forever. As long as you have a Vercel account (free), the app stays live.
+
+Does it cost anything?
+No. Vercel is free. GitHub is free.
+The only cost is the Claude API calls when you generate content (~$0.01 per idea).
+
+Can I customize it?
+Yes, but you'd need a developer. The current version is ready to go.
+
+Can I share it with others?
+Yes. Just send them the link. They can use it to generate BHBS content too.
+
+---
+
+NEXT STEP: BOOKMARK YOUR URL
+
+Once your app is live, bookmark it or save it to your home screen.
+
+Then come here to this Claude project, save it, and you have your full system:
+- This Content Studio (Vercel)
+- Presence Framework guide (Document)
+- Brand voice and rules (Right here)
+
+Everything works together.
+
+You're set.
+
+🖤
